@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 300px;
+    height: 250px;
+    background-color: rgb(201, 13, 13);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 20px 8px #c0bdbd ;
+}
+.cock{
+    position:absolute;
+    width: 200px;
+    height: 200px;
+    margin-top: 20%;
+   margin-left: -5%;
+    z-index: 1;  
+}
+.p0{
+    font-size: 17px;
+    color: white;
+   margin-left: 56%;
+   margin-top: 8%;
+}
+.p1{
+    font-family:'Great Vibes';
+    font-size: 42px;
+    color: white;
+   margin-left: 52%;
+}
+.p2{
+    font-family: 'Courgette';
+    color: white;
+    font-size: 25px;
+    margin-left: 65%;
+    margin-top: -4%;
+    position: absolute;
+}
+.p3{
+    font-family: 'Tangerine';
+    color: white;
+    font-weight:bolder;
+    font-size: 40px;
+    margin-left: 66%;
+    margin-top: 4%;
+}
+.ice{
+    position:absolute;
+    z-index: 2;
+    width: 300px;
+    height: 90px;
+   margin-top: 63%;
+}
+.button {
+    margin-left: 57%;
+    padding: 4px 15px;
+    font-size: 14px;
+    text-align: center;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: #ee0101;
+    border: none;
+    border-radius: 6px;
+  
+    box-shadow: 2px 2px #7c0000;
+   z-index: 1;
+   position: absolute;
+   
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  .button:hover,
+.button:focus {
+  
+  transform: translateY(-0.25em);
+  box-shadow: 4px 4px #7c0000;
+}
+.cock:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+  }
+  @keyframes shake {
+    10%, 90% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(2px, 0, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-4px, 0, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(4px, 0, 0);
+    }
+  }
+ .logo{
+   margin-left: 7px;
+   width: 60px;
+   height: 30px;
+   z-index: -1;
+   position: absolute;
+ }
+ .ligt{
+   margin-top: 15%;
+   margin-left: 20px;
+  width: 80px;
+  height: 80px;
+  z-index: -2;
+  position: absolute;
+ }
